@@ -67,7 +67,7 @@ public class Activity_C extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         mStatusTracker.setStatus(mActivityName, getString(R.string.on_destroy));
-        mStatusTracker.clear();
+        //mStatusTracker.clear();
     }
 
     public void startDialog(View v) {

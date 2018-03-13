@@ -58,7 +58,3 @@ public class Utils {
         }, 750);
     }
 }
-
-
-
-
